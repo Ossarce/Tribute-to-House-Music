@@ -32,6 +32,10 @@ body {
     color: #f8f9fa;
 }
 /* HEADER */
+.logo {
+    padding: 1rem;
+    margin: 0;
+}
 .navbar-custom {
     background-color: #0a0908;
 }
@@ -58,6 +62,9 @@ body {
 
 html {
     scroll-padding-top: 7rem;
+}
+.carousel {
+    margin-top: 5.9rem;
 }
 /* MAIN */
 h1 {
