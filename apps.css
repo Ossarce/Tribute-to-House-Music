@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+/* VARIABLES */
+:root {
+    --black: #0a0908;
+}
 /* GLOBAL */
 html {
     font-size: 62.5%; /*1 rem is now 10px */
-    background-color: #0a0908;
+    background-color: var(--black);
 }
 body {
     font-size: 1.6rem;
@@ -37,7 +41,7 @@ body {
     margin: 0;
 }
 .navbar-custom {
-    background-color: #0a0908;
+    background-color: var(--black);
 }
 .navbar {
     padding: 0.1rem;
