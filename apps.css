@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+/* GLOBAL */
+html {
+    font-size: 62.5%; /*1 rem is now 10px */
+    background-color: #0a0908;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+.big-text {
+    font-size: 3rem;
+}
+.mainback {
+    background-color: #343a40;
+}
+.cover {
+    background-size: 100%;
+}
+.grayish {
+    color: #e9ecef;
+}
+.moar {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #adb5bd;
+}
+.moar:hover{
+    color: #f8f9fa;
+}
+/* HEADER */
+.navbar-custom {
+    background-color: #0a0908;
+}
+.navbar {
+    padding: 0.1rem;
+    font-weight: 300;
+}
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+.nav-img {
+    height: 5rem;
+    width: 12rem;
+}
+.navbar-nav {
+    align-items: flex-end;
+
+}
+.nav-item {
+   padding-right: 1rem;
+}
+
+html {
+    scroll-padding-top: 7rem;
+}
+/* MAIN */
+h1 {
+    color: #dee2e6;
+}
+
+.berp h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 1rem auto 2rem ;
+    padding: 1rem auto 2rem ;
+}
+.berp p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+/* SECTION Feelings*/
+.test {
+    background-image: url(https://images.unsplash.com/photo-1607499699372-7bb722dff7e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+}
+section h2 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+section p {
+    line-height: 1.8;
+}
+/* SECTION Curators */
+.curator-img {
+    width: 20rem;
+    height: 20rem;
+    margin: auto;    
+    display: block;
+}
+.curaback {
+    background-image: url(https://images.unsplash.com/photo-1587731556938-38755b4803a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1357&q=80);
+    background-size: cover;
+}
+/* FOOTER */
+footer {
+    font-weight: 300;
+    padding: 0.3rem;
+}
+/* .bootCols{
+    margin:0;
+    box-sizing:border-box;
+    padding:5px;
+    border:2px solid auto;
+} */
