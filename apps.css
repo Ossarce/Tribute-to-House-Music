@@ -114,6 +114,10 @@ footer {
     font-weight: 300;
     padding: 0.3rem;
 }
+.text-end {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
 /* .bootCols{
     margin:0;
     box-sizing:border-box;
